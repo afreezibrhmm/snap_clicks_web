@@ -1,0 +1,23 @@
+.contact {
+  text-align: center;
+}
+
+.whatsapp-cta {
+  display: inline-flex;   /* IMPORTANT */
+  align-items: center;
+  justify-content: center;
+  margin: 30px auto 0;    /* centers horizontally */
+  padding: 18px 40px;
+  background: linear-gradient(135deg, #25D366, #1ebe5d);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 12px 30px rgba(37, 211, 102, 0.35);
+  transition: all 0.3s ease;
+}
+
+.whatsapp-cta:hover {
+  transform: translateY(-4px) scale(1.03);
+}
